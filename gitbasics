@@ -1,0 +1,6 @@
+git init
+git add -A
+git commit -m " sending files to remote repository aws in github"
+git status
+git remote add aws https://github.com/ivpvarma/aws-.git
+git push -u aws master
