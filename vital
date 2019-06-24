@@ -1,0 +1,17 @@
+Building dependency tree       
+Reading state information... Done
+255 packages can be upgraded. Run 'apt list --upgradable' to see them.
+root@kubernetes-slave:/home/ubuntu# 
+root@kubernetes-slave:/home/ubuntu# apt install git -y
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.17.1-1ubuntu0.4).
+git set to manually installed.
+The following packages were automatically installed and are no longer required:
+  iio-sensor-proxy:i386 libavahi-glib1:i386 libmbim-glib4:i386 libmm-glib0:i386
+  libpolkit-gobject-1-0:i386 libqmi-glib5:i386 modemmanager:i386
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 255 not upgraded.
+root@kubernetes-slave:/home/ubuntu# git --version
+
